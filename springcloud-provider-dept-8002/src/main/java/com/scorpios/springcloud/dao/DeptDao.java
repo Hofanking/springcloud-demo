@@ -1,11 +1,11 @@
 package com.scorpios.springcloud.dao;
 
-import java.util.List;
-
+import com.scorpios.springcloud.entity.Dept;
 import org.apache.ibatis.annotations.Mapper;
 
-import com.scorpios.springcloud.entity.Dept;
+import java.util.List;
 
+// @Repository
 @Mapper
 public interface DeptDao {
 	public boolean addDept(Dept dept);
